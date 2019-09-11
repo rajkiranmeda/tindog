@@ -1,0 +1,176 @@
+#title
+{
+  background-color: #ff4c68;
+  color: white;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+h1{
+  font: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h2{
+  line-height: 5;
+}
+
+p{
+  color: grey;
+}
+
+
+
+
+/* Navbar */
+
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+.container{
+  padding: 3% 15% 7%;
+}
+
+.thicker{
+  font-weight: 900;
+}
+
+.thicker2{
+    font-weight: 800;
+    }
+
+.thick{
+  font-weight: bold;
+}
+
+
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image
+ */
+ .title-image{
+ width:50%;
+ transform: rotate(25deg);
+ position: absolute;
+ right: 30%;
+ }
+
+ /* features section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonial Section */
+
+ #testimonials{
+
+   text-align: center;
+   background-color: #ef8172;
+   color:#fff;
+ }
+
+ .testimonial-image{
+   border-radius: 50%;
+   width: 10%;
+   margin: 20px;
+ }
+
+ #press{
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+ }
+
+ .carousel-item{
+padding: 7% 15%;
+ }
+
+ /* Pricing section*/
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* media query breakpoints section */
+
+@media(max-width: 1028px)
+  {
+
+    #title{
+      text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+/* call to action section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+}
+
+/* Footer section */
+
+#footer{
+ background-color: #fff;
+ text-align: center;
+ padding: 30px;
+}
+
+.f-icon{
+  padding: 10px;
+}
